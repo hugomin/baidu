@@ -304,3 +304,131 @@
 	top:145px;
 	z-index: 1;
 }
+/*头部*/
+#top .nav{
+	width: 1000px;
+	height: 100%;
+	margin: auto ;
+}
+#top .nav .a1{
+	float: left;
+	width: 120px;
+    height: 40px;
+    margin-top: 10px;
+    background-image: url(../image/top1.png);
+    background-position: -2px 0;
+    background-repeat:no-repeat ;
+}
+#top .nav .a2{
+	width: 360px;
+	height: 60px;
+	float: left;
+}
+
+#top .nav .a2 a{
+	float: left;
+	width: 100px;
+    font-size: 15px;
+    height: 28px;
+    padding-top: 32px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    line-height: 100%;
+    text-decoration: none;
+    font-family: "微软雅黑";
+}
+#top .nav .a2 a:first-of-type{
+	margin-left: 60px;
+}
+#top .nav .a3{
+	float: right;
+    margin-top: 25px;
+}
+#top .nav .a3 a{
+	float: left;
+	color: #fff;
+    font-size: 12px;
+    padding: 5px 10px;
+    text-decoration: none;
+     font-family: "微软雅黑";
+}
+#login{
+	position: absolute;
+	right: 0;
+	top:126px;
+	width: 340px;
+	height: 285px;
+	background:#4ebffc;
+	z-index: 10;
+	border-radius: 5px;
+	padding: 0 25px;
+	box-sizing: border-box;
+}
+#login .num{
+	width: 100%;
+	height: 40px;
+	float: left;
+	padding-left:40px ;
+	box-sizing: border-box;
+	font-size: 16px;
+	margin-top: 25px;
+	font-family: "微软雅黑";
+	outline:none;
+	
+}
+#login .pswd{
+	width: 100%;
+	height: 40px;
+	float: left;
+	padding-left:40px ;
+	box-sizing: border-box;
+	font-size: 16px;
+	margin-top: 20px;
+	font-family: "微软雅黑";
+	outline:none;
+}
+
+#login .yan{
+	width: 50%;
+	height: 40px;
+	float: left;
+	padding-left:20px ;
+	box-sizing: border-box;
+	font-size: 16px;
+	margin-top: 20px;
+	font-family: "微软雅黑";
+	outline:none;
+}
+#login .login1{
+	width: 100%;
+	height: 36px;
+	background: #ffd850;
+	color:#5c4c12;
+	border-radius: 2px;
+	text-align: center;
+	line-height: 36px;
+	float: left;
+	margin-top: 20px;
+}
+#login .safe{
+	float: left;
+	width: 50%;
+	height: 20px;
+	text-decoration: none;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+#login .question{
+	float: right;
+	width: 50%;
+	height: 20px;
+	text-decoration: none;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: right;
+     margin-top: 10px;
+}
